@@ -22,7 +22,7 @@ public class Scanners {
             System.out.println("Ja é maior de idade");
 
         }else {
-            System.out.println("menor de idade");
+            System.out.println("Ainda é menor de idade");
         }
 
         //fechar scanner
