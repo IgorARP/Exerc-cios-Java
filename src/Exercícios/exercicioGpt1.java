@@ -26,7 +26,7 @@ public class exercicioGpt1 {
             switch (opcao) {
                 case 1:
                     if (cadastro < numeroMax) {
-                        System.out.println("Digite o Pokemon que quer adicionar na party:");
+                        System.out.println("Digite o Pokemon que você quer adicionar na party:");
                         String pokemonAdicionado = scanner.nextLine();
                         pokemon[cadastro] = pokemonAdicionado;
                         cadastro++;
@@ -50,7 +50,7 @@ public class exercicioGpt1 {
 
                 case 3:
                     if (cadastro == 0) {
-                        System.out.println("Nenhum Pokemon na party para remover!");
+                        System.out.println("Nenhum Pokemon na sua party para remover!");
                     } else {
                         System.out.println("Pokemons na sua party");
                         for (int i = 0; i < cadastro; i++) {
