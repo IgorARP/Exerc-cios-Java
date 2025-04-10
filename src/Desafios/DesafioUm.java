@@ -1,19 +1,19 @@
-package TiposDeDados;
+package Desafios;
 
 public class DesafioUm {
     public static void main(String[] args) {
 
         //Ninja 1
         String nomeNinja1 = "naruto";
-        int idadeNinja1 = 19;
+        int idadeNinja1 = 13;
         String missao1 = "missao1";
-        char nivelDificuldade1 = 'C';
+        char nivelDificuldade1 = 'A';
         String statusMissao1 = "missao concluida";
         if (idadeNinja1 < 15)
         {   if (nivelDificuldade1 == 'C' || nivelDificuldade1 == 'D'){
            statusMissao1 = "missao concluida";
         }else
-            statusMissao1 = "missão NÃO concluida";
+            statusMissao1 = "missão NÃO concluida, você não tem idade suficiente para essa missão";
 
         }else
             statusMissao1 = "missao CONCLUIDA";
