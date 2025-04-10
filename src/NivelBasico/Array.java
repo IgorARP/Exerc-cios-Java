@@ -34,7 +34,7 @@ public class Array {
         Quando redeclara um array você sobreescreve o espaço da memoria do antigo array
         jogando o antigo fora com o garbage collector
          */
-        nome = new String[7];
+        nome = new String[8];
         nome[0] = "Hashirama";
         nome[1] = "Tobirama";
         nome[2] = "Hiruzen";
@@ -45,8 +45,9 @@ public class Array {
         System.out.println(nome[2]);
 
         //for para fazer um loop no array
+        int cadastrados = 7;
 
-        for (int i = 0; i <7 ; i++) {
+        for (int i = 0; i < cadastrados ; i++) {
             System.out.println(nome[i]);
 
         }
