@@ -7,13 +7,14 @@ public class Main {
         naruto.nome = "Naruto";
         naruto.aldeia = "Folha";
         naruto.idade = 17;
-        naruto.ModoSabio();
+        naruto.habilidadeEspecial();
 
        uchiha Sasuke = new uchiha();
        Sasuke.nome = "Sasuke";
        Sasuke.idade = 19;
        Sasuke.aldeia = "folha";
-       Sasuke.ShairnganAtivado();
+       Sasuke.habilidadeEspecial();
+
         int quantotempofalta = Sasuke.anosHokage(70);
         System.out.println(quantotempofalta);
 
@@ -32,10 +33,11 @@ public class Main {
        boruto.nome = "Boruto";
        boruto.aldeia = "folha";
        boruto.idade = 9;
-       boruto.ModoSabio();
        boruto.AtivarKarma();
        boruto.AtivarJogan();
 
 
+
     }
+
 }

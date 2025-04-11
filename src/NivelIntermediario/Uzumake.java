@@ -1,8 +1,10 @@
 package NivelIntermediario;
 
 public class Uzumake extends Ninja{
-    public void ModoSabio(){
-        System.out.println("Meu nome é " + nome + "e estou com modo sabio" );
-
+    @Override
+    public void habilidadeEspecial (){
+        System.out.println("meu nome é " + nome + "e esse é meu ataque especial");
     }
+
+
 }

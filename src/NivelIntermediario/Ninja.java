@@ -5,17 +5,18 @@ public class Ninja {
     String nome;
     String aldeia;
     int idade;
-    //criar um metodo publico personalizado
     /*
-    O metodo void nao retorna valor
-    public quer dizer que você criou um metodo publico
-    void quer dizer que ele não retorna nada
+    O metodo void nao retorna valor public quer dizer que você criou um metodo publico void
+    quer dizer que ele não retorna nada
      */
     public String nomeNinja (){
         return "Meu nome é";
     }
-
     public int anosHokage(int idadeMinima){
         return idadeMinima - idade;
+    }
+    //metodo geral todos vao ter
+    public void habilidadeEspecial (){
+        System.out.println("meu nome é " + nome + "e esse é meu ataque especial");
     }
 }

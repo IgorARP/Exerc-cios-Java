@@ -1,7 +1,10 @@
 package NivelIntermediario;
 
 public class uchiha extends Ninja {
-    public void ShairnganAtivado(){
-        System.out.println("Meu nome é "+ nome + " meu Sharingan esta Ativado");
-    }
+
+        @Override
+        public void habilidadeEspecial (){
+            System.out.println("meu nome é " + nome + "e esse é meu ataque especial");
+        }
+
 }
