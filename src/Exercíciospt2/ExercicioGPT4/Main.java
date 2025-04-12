@@ -13,7 +13,7 @@ public class Main {
         ArrayList<Funcionario> funcionarios = new ArrayList<>();
 
         do {
-            System.out.println("\nMenu:");
+            System.out.println("\nMenu da loja de conveniências:");
             System.out.println("1 - Cadastrar Cliente");
             System.out.println("2 - Cadastrar Funcionário");
             System.out.println("3 - Listar Clientes");
