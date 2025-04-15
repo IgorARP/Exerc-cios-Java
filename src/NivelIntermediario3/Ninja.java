@@ -2,6 +2,10 @@ package NivelIntermediario3;
 
 public abstract class Ninja implements Estrategia {
     String nome;
+    String aldeia;
+    int idade;
+    int numeroDeMissoes;
+    Ninvelninja rank;
 
     //Metodos Geral! Todos os ninjas vao ter!!
     public void habilidadeEspecial() {
