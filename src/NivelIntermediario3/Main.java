@@ -3,7 +3,9 @@ package NivelIntermediario3;
 public class Main {
     public static void main(String[] args) {
         Uzumaki naruto = new Uzumaki("Naruto", "Folha",
-                16 , 19, Ninvelninja.GENIN);
+                16 , 19, Ninvelninja.GENIN, Biju.SHUKAKU);
+        System.out.println(naruto.biju);
+        System.out.println("Meu nome é: "+naruto.nome);
         naruto.habilidadeEspecial();
         naruto.estrategiaDeBatalha();
         System.out.println("------------");
