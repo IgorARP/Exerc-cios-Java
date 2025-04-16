@@ -1,8 +1,9 @@
 package NivelIntermediario3;
 
 public class Uzumaki extends Ninja{
-
-
+    public Uzumaki(String nome, String aldeia, int idade, int numeroDeMissoes, Ninvelninja rank) {
+        super(nome, aldeia, idade, numeroDeMissoes, rank);
+    }
 
     @Override
     public void habilidadeEspecial (){
