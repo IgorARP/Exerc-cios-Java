@@ -45,5 +45,15 @@ public class EstruturaDeDados {
         System.out.println("Fila depois do poll " +ninjaQueue );
         System.out.println("Ver o primeiro/HEAD = " + ninjaQueue.peek());
 
+        System.out.println("---------LINKED LIST---------");
+        LinkedList<String> ninjaLinkedList = new LinkedList<>();
+        ninjaLinkedList.add("Naruto");
+        ninjaLinkedList.add("Sasuke");
+        ninjaLinkedList.add("Sakura");
+        System.out.println(ninjaLinkedList);
+        ninjaLinkedList.add(1,"Kakashi");
+        System.out.println(ninjaLinkedList);
+        ninjaLinkedList.remove(2);
+        System.out.println(ninjaLinkedList);
     }
 }
